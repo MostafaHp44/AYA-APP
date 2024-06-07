@@ -1,0 +1,125 @@
+.Main-Home
+{
+    display: grid;
+    background-color: #6826BC;
+
+}
+.Home-Part
+{
+    background-color: #6826BC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.First-Part-Home
+{
+    display: grid;
+    padding: 1em;
+    margin: 1em;
+}
+
+.First-Part-Home>h1
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 88px;
+    width: 528px;
+    color: #FFFDFD;
+    text-align: -webkit-auto;
+    
+}
+.First-Part-Home>p
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 554px;
+    color: #FFFDFD;
+    text-align: -webkit-auto;
+    padding-bottom: 3em;
+    
+}
+
+.Tryit
+{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #6826BC;
+    background-color: #F1F1F1 ;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    border:  none;
+    width: 257px;
+}
+
+.Category-Part
+{
+    display: grid;
+    background-color: #6826BC;
+
+}
+.First-Part-Category>h1
+{
+font-family: Poppins;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+color:#FFFDFD;
+text-align: left ;
+margin-left: 4em;
+margin-top: 10em;
+
+}
+.First-Part-Category>p
+{
+font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color:#FFFDFD;
+text-align: left;
+margin-left: 7em;
+
+}
+.Second-Part-Category
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+.Main-CategoryCard
+{
+    background-color: #F1F1F1;
+    border-radius: 24px;
+    padding: 1em;
+    width: 320px;
+    height: 240px;
+    display: grid;
+    align-items: center;
+}
+
+.CategoryName
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #6826BC;
+
+}
+.NumberCourses
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1E1E; 
+}

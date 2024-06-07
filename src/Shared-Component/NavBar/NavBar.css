@@ -1,0 +1,102 @@
+.Main-NavBar
+{
+    display: grid;
+    margin: 3em;
+}
+.NavBar-Content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-radius: 16px;
+    background-color: white;
+}
+.Logo-Aya
+{
+    display: grid;
+}
+.logo
+{
+    width: 80px;
+    height: 60px;
+}
+.StartFromA
+{
+    font-family: cambay;
+    font-size: 12px;
+    line-height: 22px;
+    background: -webkit-linear-gradient(#621CA9, #AB6AFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Category-Aya,
+.Procces-Aya,
+.Enrty
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+}
+.Category-Aya>li
+{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.7s;
+    color: #1E1E1E    ;
+}
+.Category-Aya>li:hover
+{
+transition: 0.9s;
+background: -webkit-linear-gradient(#621CA9, #AB6AFF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Teach-at-alef-aya
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: -webkit-linear-gradient(#621CA9, #AB6AFF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Login
+{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFDFD;
+    background-color: #6826BC;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px ;
+    border: none;
+       
+}
+.MainLanguage
+{
+    background-color: #F1F1F1;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+option,
+select
+{
+    font-family: Tajawal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    background: -webkit-linear-gradient(#621CA9, #AB6AFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
